@@ -1,0 +1,20 @@
+{
+    "name": "hexlet/hexlet-php",
+    "description": "Hexlet PHP project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+    {
+      "name": "Yana Markova",
+      "email": "kisomoa15@gmail.com"
+    }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\HexletPhp\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1.29"
+    }
+}
